@@ -5,6 +5,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
     background-color: #c1c1c1;
     display: flex;
@@ -31,4 +36,33 @@ H1.title{
 
 H2.subtitle{
     font-size: 36px;
+}
+
+.breakfast{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dish-name-price{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-name-price p{
+    font-weight: 700;
+}
+
+.dish-image{
+    width: 200px;
+    height: 200px;
+
+}
+
+.dish-description{
+    padding-top: 10px;
+}
+
+.allergenes p{
+    color: red;
 }
