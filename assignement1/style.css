@@ -72,6 +72,89 @@ color: red;
 H2.subtitle{
     font-size: 36px;
     text-align: center;
+} 
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.subtitle {
+    text-align: center;
+}
+nav{
+    background-color: #c1c1c1;
+    display: flex;
+    justify-content: space-between;
+}
+.sandwich1 { 
+    width: 200px;
+    height: 180px;
+}  
+.salat1 { 
+    height: 200px;
+    width: 200px;
+
+} 
+.fish1 {
+    width: 200px;
+    height: 200px;
+}
+
+.logo{
+    margin-left: 20px;
+} 
+
+.time{
+    margin-right: 20px;
+}
+
+.title{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+H1.title{
+    font-size: 60px;
+}
+
+H2.subtitle{
+    font-size: 36px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    display:flex;
+    justify-content:space-between;
+}
+.socialmedia {
+    margin-right:40px;
+    margin-top:20px;
+    color:white;
+    padding-top:20px;
+}
+p {
+    margin:0;
+    padding:0;
+}
+address {
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.Allergens{ 
+    color: red;
 }
 
 
