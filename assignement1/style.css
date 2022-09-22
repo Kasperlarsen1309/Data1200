@@ -32,3 +32,26 @@ H1.title{
 H2.subtitle{
     font-size: 36px;
 }
+.breakfast{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dish-1_pic{
+width: 200px;
+height: 200px;
+
+}
+.dish-pic2{
+width: 200px;
+height: 200px;
+}
+.dish-pic3{
+width: 200px;
+height: 200px;    
+}
+.allergens{
+color: red;
+}
+.name{
+justify-content: space-between;
+}
