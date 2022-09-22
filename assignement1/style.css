@@ -55,3 +55,23 @@ color: red;
 .name{
 justify-content: space-between;
 }
+
+.Middag{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;   
+    justify-content:space-around;
+}
+
+.dish-description{
+    word-wrap: break-word;
+}
+.allergenes{
+color: red;
+}
+
+
+
+
+
+
