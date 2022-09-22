@@ -4,7 +4,6 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 nav{
     background-color: #c1c1c1;
     display: flex;
@@ -14,11 +13,6 @@ nav{
 .logo{
     margin-left: 20px;
 }
-
-.time{
-    margin-right: 20px;
-}
-
 .title{
     margin: auto;
     text-align: center;
@@ -31,6 +25,7 @@ H1.title{
 
 H2.subtitle{
     font-size: 36px;
+    text-align:center;
 }
 .breakfast{
     display: flex;
@@ -55,7 +50,10 @@ color: red;
 .name{
 justify-content: space-between;
 }
-
+.time{
+    margin-right:20px;
+    margin-top: 15px;
+}
 .Middag{
     display: flex;
     justify-content: center;
@@ -69,17 +67,6 @@ justify-content: space-between;
 .allergenes{
 color: red;
 }
-H2.subtitle{
-    font-size: 36px;
-    text-align: center;
-} 
-body{
-    background-color: whitesmoke;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .row-div {
     display: flex;
     flex-direction: row;
@@ -87,11 +74,6 @@ body{
 }
 .subtitle {
     text-align: center;
-}
-nav{
-    background-color: #c1c1c1;
-    display: flex;
-    justify-content: space-between;
 }
 .sandwich1 { 
     width: 200px;
@@ -106,34 +88,10 @@ nav{
     width: 200px;
     height: 200px;
 }
-
-.logo{
-    margin-left: 20px;
-} 
-
-.time{
-    margin-right: 20px;
-}
-
-.title{
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
-}
-
-H1.title{
-    font-size: 60px;
-}
-
-H2.subtitle{
-    font-size: 36px;
-}
-
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
-    background-color:grey;
+    background-color: #c1c1c1;
     display:flex;
     justify-content:space-between;
 }
@@ -141,7 +99,6 @@ footer {
     margin-right:40px;
     margin-top:20px;
     color:white;
-    padding-top:20px;
 }
 p {
     margin:0;
@@ -153,12 +110,3 @@ address {
     margin-bottom: 20px;
     margin-left: 20px;
 }
-.Allergens{ 
-    color: red;
-}
-
-
-
-
-
-
