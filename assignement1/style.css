@@ -32,28 +32,26 @@ H1.title{
 H2.subtitle{
     font-size: 36px;
 }
+.breakfast{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dish-1_pic{
+width: 200px;
+height: 200px;
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color:grey;
-    display:flex;
-    justify-content:space-between;
 }
-.socialmedia {
-    margin-right:40px;
-    margin-top:20px;
-    color:white;
-    padding-top:20px;
+.dish-pic2{
+width: 200px;
+height: 200px;
 }
-p {
-    margin:0;
-    padding:0;
+.dish-pic3{
+width: 200px;
+height: 200px;    
 }
-address {
-    font-style: normal;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.allergens{
+color: red;
+}
+.name{
+justify-content: space-between;
 }
