@@ -31,16 +31,13 @@ H2.subtitle{
     display: flex;
     justify-content: space-evenly;
 }
-
-img {
-    width: 200px;
-    height: 200px;
+.lunch {
+    display: flex;
+    justify-content: space-evenly;
 }
-
 .allergens{
 color: red;
 }
-
 .name{
 justify-content: space-between;
 }
@@ -57,11 +54,10 @@ justify-content: space-between;
 
 .dish-description{
     word-wrap: break-word;
-
+}
 .subtitle {
     text-align: center;
 }
-
 footer {
     bottom: 0;
     width: 100%;
@@ -83,4 +79,9 @@ address {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
