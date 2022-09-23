@@ -31,22 +31,16 @@ H2.subtitle{
     display: flex;
     justify-content: space-evenly;
 }
-.dish-1_pic{
-width: 200px;
-height: 200px;
 
+img {
+    width: 200px;
+    height: 200px;
 }
-.dish-pic2{
-width: 200px;
-height: 200px;
-}
-.dish-pic3{
-width: 200px;
-height: 200px;    
-}
+
 .allergens{
 color: red;
 }
+
 .name{
 justify-content: space-between;
 }
@@ -63,31 +57,11 @@ justify-content: space-between;
 
 .dish-description{
     word-wrap: break-word;
-}
-.allergenes{
-color: red;
-}
-.row-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 .subtitle {
     text-align: center;
 }
-.sandwich1 { 
-    width: 200px;
-    height: 180px;
-}  
-.salat1 { 
-    height: 200px;
-    width: 200px;
 
-} 
-.fish1 {
-    width: 200px;
-    height: 200px;
-}
 footer {
     bottom: 0;
     width: 100%;
