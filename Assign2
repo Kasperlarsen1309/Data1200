@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="Assign2.css">
 </head>
 <body>
-    <div class="heading1">
-        <h1>Keep Watch</h1>
-        <p class="undertekst 1">Ellen DeGeneres does it. Bradly Copper and LeBron James. It`s the passion and practice of vintage-watch collecting --- a global movement with local experts and aficionados.</p>
+    <div class = heading1>
+        <h1>
+            <span id="keeping"> KEEPING </span> 
+                <br> 
+            <span id="watch"> WATCH </span>
+        </h1> 
+    
+        <p class="undertekst1">Ellen DeGeneres does it. Bradly Copper and LeBron James.<br> It`s the passion and practice of vintage-watch collecting --- a global<br> movement with local experts and aficionados.</p>
+        
         <blockquote class="peferat1"><p>By Cindy Chavich    Photos by Jeffrey Bosdet</p></blockquote>
     </div>
+
+
     <div class="paragraf 1">
         <h3 class="heading 2">I NEVER THOUGHT MUCH ABOUT MY WATCH UNTIL THE DAY IT DIED</h3>
-        <p class="paragraf 2">A sturdy, utilitarian Swiss timepiece, it's been on my wrist for more than two decades, keeping me punctual  for interviews and making sure I never missed a flight, long before the ubiquitous smartphone became the        preferred method for checking time.
+        <p class="paragraf 2">  A sturdy, utilitarian Swiss timepiece, it's been on my wrist for more than two decades, keeping me punctual  for interviews and making sure I never missed a flight, long before the ubiquitous smartphone became the        preferred method for checking time.
            How I broke a little hole in the crystal I really don't know, but there it was, the tiny shards of crushed glass dancing across the watch face like a snow globe.
            It wasn't a good day for my watch — the red second hand stopped in its tracks — but it did lead to a fortuitous meeting with a gaggle of young watchmakers and a glimpse into the amazing world of watch collectors.</p>
     </div>
@@ -58,7 +66,5 @@
             Bill Naughton, Victoria's former deputy police chief, displays 10 of his favourite wristwatches in a glass-topped wooden display.
             </p>
     </div>
-
-    
 </body>
 </html>
