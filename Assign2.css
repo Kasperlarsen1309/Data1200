@@ -1,1 +1,23 @@
-kkk
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: Inter;
+}
+
+.heading1 {
+    margin-left: 20px;
+}
+#keeping {
+    font-weight: 100;
+    font-size: 60px;
+}
+#watch {
+    font-weight: 700;
+    font-size: 70px; 
+}
+.undertekst1{
+    color: darkgrey; 
+}
+blockquote {
+    margin-left:0px;
+}
