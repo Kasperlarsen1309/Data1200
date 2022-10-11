@@ -1,23 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-*{
-    font-family: Inter;
+nav{
+    background-color: #c1c1c1;
+    display: flex;
+    justify-content: space-between;
 }
 
-.heading1 {
+.logo{
     margin-left: 20px;
 }
-#keeping {
-    font-weight: 100;
+.title{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+H1.title{
     font-size: 60px;
 }
-#watch {
-    font-weight: 700;
-    font-size: 70px; 
+
+H2.subtitle{
+    font-size: 36px;
+    text-align:center;
 }
-.undertekst1{
-    color: darkgrey; 
+.breakfast{
+    display: flex;
+    justify-content: space-evenly;
 }
-blockquote {
-    margin-left:0px;
+.lunch {
+    display: flex;
+    justify-content: space-evenly;
+}
+.allergens{
+color: red;
+}
+.name{
+justify-content: space-between;
+}
+.time{
+    margin-right:20px;
+    margin-top: 15px;
+}
+.Middag{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;   
+    justify-content:space-around;
+}
+
+.dish-description{
+    word-wrap: break-word;
+}
+.subtitle {
+    text-align: center;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #c1c1c1;
+    display:flex;
+    justify-content:space-between;
+}
+.socialmedia {
+    margin-right:40px;
+    margin-top:20px;
+    color:white;
+}
+p {
+    margin:0;
+    padding:0;
+}
+address {
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
