@@ -1,92 +1,87 @@
-body{
-    background-color: whitesmoke;
-    margin: 0;
+*{
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 400;
 }
-nav{
-    background-color: #c1c1c1;
+body{
+    background-color: white;
+}
+
+.container{
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
 }
-.logo{
-    margin-left: 20px;
-}
+
 .title{
-    margin: auto;
-    text-align: center;
+    font-size: 80px;
     padding-top: 20px;
+    color: black;
+    line-height:40px;
 }
 
-H1.title{
-    font-size: 60px;
+.subtitle{
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 20px;
+    color:black;
 }
 
-H2.subtitle{
-    font-size: 36px;
-    text-align:center;
+.writers{
+    font-size: 10px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
-.breakfast{
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    justify-content: space-evenly;
-}
-.lunch {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    justify-content: space-evenly;
-}
-.allergens{
-color: black;
-}
-.name{
-justify-content: space-between;
-}
-.time{
-    margin-right:20px;
-    margin-top: 15px;
-}
-.Middag{
-    display: flex;
-    justify-content: center;
-    align-content: space-between;   
-    justify-content:space-evenly;
+p{
+    font-size: 9px;
 }
 
-.dish-description{
-    word-wrap: break-word;
+.left-part{
+    min-width: 40%;
 }
-.subtitle {
-    text-align: center;
+
+.right-part{
+    min-width: 60%;
 }
-footer {
-    bottom: 0;
+
+.left-sub-container{
+    display: flex;
+}
+
+.left-left-child{
+    min-width: 50%;
+}
+
+.left-right-child{
+    min-width: 50%;
+}
+
+.man-img{
     width: 100%;
-    background-color: #c1c1c1;
-    display:flex;
-    justify-content:space-between;
-    margin-top: 25px;
-}
-.socialmedia {
-    margin-right:40px;
-    margin-top:20px;
-    color:white;
-}
-p {
-    margin:0;
-    padding:0;
-}
-address {
-    font-style: normal;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
+.watch-img{
+    width: 100%;
 }
 
+.right-sub-container{
+    display: flex;
+}
+
+.right-col1{
+    min-width: 19%;
+}
+
+.right-col2{
+    min-width: 27%;
+}
+.p7-title {
+    margin-top:8px;
+    font-weight:900;
+}
+.p2-title {
+    font-weight:900;
+}
