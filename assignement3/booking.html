@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Café & Rock | Booking</title>
-    <link rel="stylesheet" href="media/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+<script>
+    function myFunction () {
+        var email = document.getElementById("email-field").value;
+        var name = document.getElementById("name-field").value;
+        alert("thank you " + name + " a confirmation email has been sent at: " + email);
+    }
+</script>
 <body>
     <nav>
         <div class="nav-logo">
@@ -12,7 +19,7 @@
         </div>
         <div class="nav-list">
             <a href="#">Menu</a>
-            <a href="#">Booking</a>
+            <a href="booking.html">Booking</a>
             <a href="#">Accessibility</a>
             <a href="#">Data1100</a>
         </div>
@@ -21,5 +28,76 @@
             <a href="#"><img class="basket-picture" alt="basket image" src="media/img/basket.png"></a>
         </div>
     </nav>
+    <div class="container">
+        <div class="left-sub-container">
+            <h2 class="sub-title">Welcome to C&R!</h2>
+            <h3 class="sub-subtitle">
+                At café and rock, play for free on stage and get your band known! Time left to play for free:
+                <span id="time"></span>
+            </h3>
+            <div class="text-body">
+                <p>
+                At C&R we allow young artists to play for free, to get known and to spend a good time in the company of coffee lovers.
+                </p>
+                <p>
+                    To discover our fantastic world, nothing could be easier:
+                    <ul>
+                        <li><p>You are an amateur music band? Book your slot on stage with our form.</p></li>
+                        <li><p>You are a music producer? A new talent enthusiast? Welcome, we offer free drinks to people who support new artists.</p></li>
+                        <li><p>You are simply a music lover, a coffee lover, both? Just come and enjoy an evening.</p></li>
+                    </ul>
+                </p>
+                <p>
+                    Regularly, we organize coffee tasting courses, to take advantage of the advice of our experts in coffee tasting, you can now consult our <a id="menu-link" href="#">menu</a> and choose the coffee that gives you the most desire.
+                </p>
+            </div>
+        </div>
+        <div class="right-sub-container">
+            <h2 class="sub-title">BOOK NOW!</h2>
+            <form>
+                <div class="form-row-1">
+                    <div class="form-row-1-col-1">
+                        <input id="email-field" name="email" type="email" placeholder="Email" />
+                    </div>
+                    <div class="form-row-1-col-2">
+                        <input id="name-field" name="name" type="text" placeholder="Name of the band" />
+                    </div>
+                </div>
+                <div class="form-row-2">
+                    <div class="form-row-2-col-1">
+                        <input id="date-field" name="date" type="date" placeholder="Date" />
+                    </div>
+                    <div class="form-row-2-col-2">
+                        <input id="spotify-field" name="spotify"  type="text" placeholder="Spotify link" />
+                    </div>
+                </div>
+                <div class="form-row-3">
+                    <textarea id="description-field" rows="4" cols="50" placeholder="Describe your music..."></textarea>
+                </div>
+                <div class="form-row-4">
+                    <button onclick="return myFunction();" id="submit-button">BOOK!</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        "https://www.w3schools.com/howto/howto_js_countdown.asp"
+        var countDownDate = new Date("Dec 31, 2022 00:00:00").getTime();
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("time").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("time").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
 </body>
 </html>
+
