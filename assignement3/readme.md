@@ -1,12 +1,13 @@
---> What we did for accessibility 
-"alt" attributes on pictures for blind people 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cafe & Rock</Accessbility>  
+        <link rel="stylesheet" href="style3.css">
+   
+
 </head>
 <body>
     <div class="Accessbility">
@@ -17,9 +18,14 @@
         <div class="center"> 
             <div class="paragraph1"> 
                 <p> 
-                    Our way to make a website started from Figma, where we started to design our website. One of adjustments we did from start was to create pages where you have space on both sides of page. We decided to have information on center and space on sides. Reason to that was that when you go to other website, you can see that they have same thinking, example Olivia restaurant. In additional, it works on mobile and computer website, where you get information downwards. It does it very much easier and make website more open smooth to go through. 
-                </p>
+                    Our way to make a website started from Figma, where we started to design our website. <br> One of adjustments we did from start was to create pages where you have space on both sides of page.<br> We decided to have information on center and space on sides. Reason to that was that when you go to other <br>website,  you can see that they have same thinking, example Olivia restaurant. <br> In additional, it works on mobile and computer website, where you get information downwards.<br> It does it very much easier and make website more open smooth to go through. <br> You can example of how one of our pages look while on Iphone 8 plus screen.
+                </p> 
+                 <img class="bilde" src="media/img/cafe rock.png">
 
+            </div> 
+            <div class="center"> 
+                <div class="paragraph2"> 
+                    <p> All our pages in the website are connected with background images, logos, images added on pages. It makes our page more customized depends on how you open our page. We used Wave accessibility website to get feedback on what can be done better on our page. On thing we got feedback on was to add label and remove justified text on our booking page. In additional we had to add on <h1> tag. </p>
             </div>
 
         
