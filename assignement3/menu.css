@@ -81,17 +81,20 @@ nav{
 .dish-name{
     text-align: left;
     padding-left: 20px;
+    color: #BC5B01;
 
 }
 
 .dish-description{
     text-align: left;
     padding-left: 20px;
+    color: #BC5B01;
 }
 
 .dish-allergens{
     text-align: left;
     padding-left: 20px;
+    color: #BC5B01;
 }
 
 .menu-row{
@@ -106,6 +109,7 @@ nav{
     width: 30%;
     justify-content: center;
     align-items: center;
+    color: #BC5B01;
 }
 
 .menu-name h2{
