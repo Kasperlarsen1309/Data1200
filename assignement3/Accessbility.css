@@ -79,15 +79,14 @@ nav{
         background-color:rgba(0, 0, 0, 1);
         color: white;
         margin-top: 20px;
-    } 
+        
     .paragraph1 {
         font-style: bold; 
-        color: #BC5B01;
+        color: black;
     }
     .paragraph2 {
-        color: #BC5B01;   
-          
-    } 
+        font-style: bold;
+        color: black;  
     .container {
         min-height: 100vh;
         display:flex;
