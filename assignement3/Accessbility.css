@@ -4,30 +4,26 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif; 
 
-} 
+}  
 a{
     text-decoration: none;
-}
-
+} 
 nav{
     display: flex;
     justify-content: space-between;
     background-color: whitesmoke;
     align-items: center;
-}
-
+} 
 .nav-list a{
     color: #BC5B01;
     font-size: 21px;
     text-decoration: underline;
     padding: 0 10px 0 10px;
-}
-
+} 
 .nav-img{
     display: flex;
     align-items: center;
-}
-
+} 
 .logo-picture{
     width: 75px;
     margin: 7px 0 7px 50px;
@@ -45,27 +41,26 @@ nav{
 
 .Accessbility {
     min-height: 100vh;
-    display:flex; 
+    display:flex;
 } 
-.image-Accesbility {
+.left-margin {
+    min-width: 25%;
+}
+.center {
+    min-width:50%;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.right-margin {
+    min-width: 25%;
+}
+
+.bilde-Accesbility {
     width:200px;
     height:200px;
     object-fit: cover; 
 
-} */ 
-.paragraph1 {
-    padding-left: 50px;
-    padding-right: 50px; }  
-    .left-margin {
-        min-width: 25%;
-    }
-    .Center {
-        min-width:50%;
-        
-    }
-    .right-margin {
-        min-width: 25%;
-    }
+}
 
 .bilde {
     
@@ -73,16 +68,42 @@ nav{
     height: 100px;
     object-fit: cover;
 } 
-.left-margin {
-    min-width: 25%;
-}
-.Center {
-    min-width:50%;
+
+    .footer {
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 1);
+        color: white;
+        margin-top: 20px;
+    } 
+    .paragraph1 {
+        font-style: bold; 
+        color: #BC5B01;
+    }
+    .paragraph2 {
+        color: #BC5B01;   
+          
+    } 
+    .container {
+        min-height: 100vh;
+        display:flex;
+    }
+
+   
     
-}
-.right-margin {
-    min-width: 25%;
-}
-.paragraph2 {
-    padding-left: 50px;
-    padding-right: 50px; }
+   
+    
+    @media (max-width: 875px) {
+        .left-margin{
+            min-width: 0;
+        }
+    
+        .right-margin{
+            min-width: 0;
+        }
+    }
+    
